@@ -1,4 +1,4 @@
-package com.example.member_find_site.dto;
+package com.example.member_find_site.entity;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

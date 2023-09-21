@@ -9,9 +9,4 @@ public class IndexController {
     public String index(){
         return "index";
     }
-
-    @GetMapping("/login")
-    public String gotologin(){
-        return "pages/Login";
-    }
 }

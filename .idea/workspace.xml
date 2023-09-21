@@ -21,6 +21,7 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -31,29 +32,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jinhyeonju/Desktop/eCommercePratice/backend",
-    "list.type.of.created.stylesheet": "CSS",
-    "spring.configuration.checksum": "abbb97cd573e5b9c115b89f8719ebd21",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jinhyeonju/Desktop/springboot/member_find_site/src/main/resources/templates/pages&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;abbb97cd573e5b9c115b89f8719ebd21&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jinhyeonju\Desktop\springboot\member_find_site\src\main\resources\templates\pages" />
       <recent name="C:\Users\jinhyeonju\Desktop\springboot\member_find_site\src\main\resources\static\js" />
       <recent name="C:\Users\jinhyeonju\Desktop\springboot\member_find_site\src\main\resources\static\css" />
       <recent name="C:\Users\jinhyeonju\Desktop\springboot\member_find_site\src\main\resources\templates\layout" />
@@ -78,6 +80,8 @@
       <updated>1695216740031</updated>
       <workItem from="1695216741643" duration="2084000" />
       <workItem from="1695218863849" duration="6038000" />
+      <workItem from="1695267977137" duration="2440000" />
+      <workItem from="1695272348549" duration="4047000" />
     </task>
     <servers />
   </component>
