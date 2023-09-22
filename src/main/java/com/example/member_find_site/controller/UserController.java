@@ -1,16 +1,15 @@
 package com.example.member_find_site.controller;
 
-import com.example.member_find_site.MemberService.MemberService;
+import com.example.member_find_site.Service.MemberService;
 import com.example.member_find_site.dto.MemberDTO;
-import com.example.member_find_site.entity.MemberEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpSession;
 
 
@@ -34,7 +33,7 @@ public class UserController {
         if (loginResult != null) {
             //success
             System.out.println("login success");
-            session.setAttribute("loginEmail", loginResult.getMemberEmail());
+            session.setAttribute("userLoginId", loginResult.getId());
             return "index";
         } else{
             //fail

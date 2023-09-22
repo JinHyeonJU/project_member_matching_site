@@ -25,3 +25,50 @@
     width : 330px;
     height : 330px;
 }
+
+.fileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fileInput {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px black;
+    width: 60%;
+    height: 30px;
+}
+
+#fileName {
+    margin-left: 5px;
+}
+
+.buttonContainer {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 0.8em;
+
+    cursor: pointer;
+}
+
+.image-show {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    position: absolute;
+}

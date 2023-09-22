@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        xmlns:th="http://www.thymeleaf.org"
+        layout:decorate="/layout/layout"
+>
+<th:block layout:fragment="content">
+    <div class="container">
+        <main>
+            <div class="py-5 text-center">
+                <h2>new board</h2>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">게시글 내용</h4>
+                    <form action="/project/write" method="POST" enctype="multipart/form-data">
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <label class="form-label">제목</label>
+                                <input name="title" type="email" class="form-control" id="email" placeholder="Title">
+                            </div>
+
+                            <div class="col-12">
+                                <textarea class="form-control" rows="10" name="content"></textarea>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    <div id="image_container"></div>
+                                </li>
+                                <input type="file" name="file">
+                            </ul>
+
+                            <hr class="my-4">
+                            <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</th:block>

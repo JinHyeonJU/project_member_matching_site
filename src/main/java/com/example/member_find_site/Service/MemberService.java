@@ -1,4 +1,4 @@
-package com.example.member_find_site.MemberService;
+package com.example.member_find_site.Service;
 
 import com.example.member_find_site.dto.MemberDTO;
 import com.example.member_find_site.entity.MemberEntity;

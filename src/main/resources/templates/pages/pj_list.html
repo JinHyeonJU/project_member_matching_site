@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        xmlns:th="http://www.thymeleaf.org"
+        layout:decorate="/layout/layout"
+>
+<th:block layout:fragment="content">
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">프로젝트검색</h1>
+            </div>
+        </div>
+    </section>
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <a href="/project/write" type="button" class="btn btn-primary btn-lg" style="margin-bottom: 20px">New Board</a>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img width="100%" height="225"
+                             th:src="@{${pjBoard.getThumbnailImgPath()}}">
+                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                        </img>
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-primary">상세</button>
+                                </div>
+                                <small class="text-body-secondary">참여인원 4/5</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</th:block>
+</html>
