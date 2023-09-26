@@ -6,14 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="9ecd152d-ee8b-46a0-9a51-c14685fac586" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/MemberService/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/Service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/Service/PJBoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/Service/PJBoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/controller/ProjectBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/controller/ProjectBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/dto/PJBoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/dto/PJBoardDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/1dc0ccbc-682e-43cf-8e6d-3019d8deda9d_ShoppingMall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/417c41b2-c43b-4ed8-b789-53134f93c8bb_화면 캡처 2023-09-01 142048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/4ffc9de7-552a-4079-aa51-ec3b93cb194d_화면 캡처 2023-09-01 142048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fcaa2ac8-9300-452c-ad35-27053c879104_화면 캡처 2023-09-01 142048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fe5d5314-c12e-4a8b-baa7-839a994b7a61_화면 캡처 2023-09-01 142048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/Login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/pj_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/pj_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/pj_write.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/pj_write.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +37,8 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,27 +52,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jinhyeonju/Desktop/eCommercePratice/backend",
-    "list.type.of.created.stylesheet": "CSS",
-    "spring.configuration.checksum": "abbb97cd573e5b9c115b89f8719ebd21",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jinhyeonju/Desktop/eCommercePratice/backend&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;abbb97cd573e5b9c115b89f8719ebd21&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jinhyeonju\Desktop\springboot\member_find_site\src\main\resources\templates\pages" />
@@ -100,6 +106,9 @@
       <workItem from="1695267977137" duration="2440000" />
       <workItem from="1695272348549" duration="4047000" />
       <workItem from="1695359718796" duration="12165000" />
+      <workItem from="1695401140006" duration="2690000" />
+      <workItem from="1695611316955" duration="1878000" />
+      <workItem from="1695614057404" duration="668000" />
     </task>
     <servers />
   </component>

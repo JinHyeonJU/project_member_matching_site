@@ -10,6 +10,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpSession;
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -20,7 +21,7 @@ public class PJBoardService {
 
     public void write(PJBoardDTO pjBoardDTO, MultipartFile file) throws Exception {
         //파일작업
-        String projectPath = System.getProperty("user.dir")+"\\src\\main\\resources\\static\\img";
+        String projectPath = System.getProperty("user.dir")+"\\src\\main\\resources\\static\\images";
 
         UUID uuid = UUID.randomUUID();
 
@@ -31,7 +32,7 @@ public class PJBoardService {
         file.transferTo(saveFile);
 
         pjBoardDTO.setThumbnailImgName(fileName);
-        pjBoardDTO.setThumbnailImgPath("../static/img/"+fileName);
+        pjBoardDTO.setThumbnailImgPath("../static/images/"+fileName);
 
         //end 파일작업
 
@@ -46,7 +47,15 @@ public class PJBoardService {
     }
 
 
-    public void selectList() {
+    public List<PJBoardDTO> findAll() {
+        List<PJBoardEntity> pjBoardEntityList = pjBoardRepository.findAll();
+        List<PJBoardDTO> pjBoardDTOList = new ArrayList<>();
+        for (PJBoardEntity pjBoardEntity: pjBoardEntityList) {
+            pjBoardDTOList.add(PJBoardDTO.toPJBoardDTO(pjBoardEntity));
+            /*PJBoardDTO pjBoardDTO = PJBoardDTO.toPJBoardDTO(pjBoardEntity);
+            pjBoardDTOList.add(pjBoardDTO);*/
+        }
 
+        return pjBoardDTOList;
     }
 }

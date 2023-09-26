@@ -17,6 +17,7 @@ import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 @Controller
 @RequestMapping("/project")
@@ -25,9 +26,11 @@ public class ProjectBoardController {
     private final PJBoardService pjBoardService;
 
     @GetMapping("/list")
-    public String projectSelect() {
+    public String findAll(Model model) {
+        List<PJBoardDTO> pjBoardDTOList = pjBoardService.findAll();
+        model.addAttribute("boardList", pjBoardDTOList);
 
-
+        System.out.println(pjBoardDTOList);
 
         return "/pages/pj_list";
     }

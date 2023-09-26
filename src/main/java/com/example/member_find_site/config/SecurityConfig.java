@@ -22,13 +22,14 @@ public class SecurityConfig{
         //인가(접근권한 설정)
         http.authorizeHttpRequests()
                 .antMatchers("/").permitAll()
-                .antMatchers("/memeber/info/").hasAnyRole("ADMIN","MEMBER")
+                .antMatchers("/memeber/info/**").hasAnyRole("ADMIN","MEMBER")
                 .antMatchers("/admin/**").hasRole("ADMIN")
                 .anyRequest().permitAll();
 
         //로그인 설정
         http.formLogin()
                 .loginPage("/login")
+                .loginProcessingUrl("login")
                 .defaultSuccessUrl("/");
 
 

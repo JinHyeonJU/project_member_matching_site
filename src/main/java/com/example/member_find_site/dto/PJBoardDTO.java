@@ -1,5 +1,6 @@
 package com.example.member_find_site.dto;
 
+import com.example.member_find_site.entity.PJBoardEntity;
 import lombok.*;
 
 @Getter
@@ -16,4 +17,15 @@ public class PJBoardDTO {
     private String writerRole;
     private String thumbnailImgName;
     private String thumbnailImgPath;
+
+    public static PJBoardDTO toPJBoardDTO(PJBoardEntity pjBoardEntity) {
+        PJBoardDTO pjBoardDTO = new PJBoardDTO();
+        pjBoardDTO.setId(pjBoardEntity.getId());
+        pjBoardDTO.setWriterId(pjBoardEntity.getWriterId());
+        pjBoardDTO.setTitle(pjBoardEntity.getTitle());
+        pjBoardDTO.setContent(pjBoardEntity.getContent());
+        pjBoardDTO.setThumbnailImgPath(pjBoardEntity.getThumbnailImgPath());
+
+        return pjBoardDTO;
+    }
 }
