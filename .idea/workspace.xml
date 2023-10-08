@@ -6,20 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="9ecd152d-ee8b-46a0-9a51-c14685fac586" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/Service/PJBoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/Service/PJBoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/Service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/Service/PJBoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/service/PJBoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/config/auth/MemberDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/controller/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/controller/ProjectBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/controller/ProjectBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/dto/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/dto/MemberDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/dto/PJBoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/dto/PJBoardDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/1dc0ccbc-682e-43cf-8e6d-3019d8deda9d_ShoppingMall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/417c41b2-c43b-4ed8-b789-53134f93c8bb_화면 캡처 2023-09-01 142048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/4ffc9de7-552a-4079-aa51-ec3b93cb194d_화면 캡처 2023-09-01 142048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fcaa2ac8-9300-452c-ad35-27053c879104_화면 캡처 2023-09-01 142048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fe5d5314-c12e-4a8b-baa7-839a994b7a61_화면 캡처 2023-09-01 142048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/pj_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/pj_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/pj_write.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/pj_write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/entity/BaseTimeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/entity/BaseTimeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/entity/MemberEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/entity/MemberEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/entity/PJBoardEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/entity/PJBoardEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/repository/PJBoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/member_find_site/repository/PJBoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2VfAPv5MF85dVeec2Xs1pvcaJDA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -109,6 +114,8 @@
       <workItem from="1695401140006" duration="2690000" />
       <workItem from="1695611316955" duration="1878000" />
       <workItem from="1695614057404" duration="668000" />
+      <workItem from="1696729784838" duration="5866000" />
+      <workItem from="1696735990545" duration="2792000" />
     </task>
     <servers />
   </component>
